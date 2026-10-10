@@ -19,7 +19,7 @@
     "verifiedSourceFiles": 22,
     "gameAssetsInAsar": 0,
     "publicPackage": true,
-    "appAsarSha256": "6c2ddc15d3daddec4dd2e3bc4e77f5ebe05eda20fcc8c40a8914460734a939eb"
+    "appAsarSha256": "b19371d7000096633b317c93e7046cac8cac466b89995bd0fde4e4075e79b659"
   },
   "screenshots": {
     "screenshots": 9,
@@ -43,5 +43,15 @@
     "high": 0,
     "critical": 0,
     "total": 8
+  },
+  "zip": {
+    "filename": "BlockNotes-0.1.0-Windows-x64.zip",
+    "bytes": 171921430,
+    "sha256": "26ca86e6255bbd0655e4d26ce29d419e3d211090ebf0ecb764a6b0ad3f9f94f5",
+    "extractedChineseAndSpacePathSmokePassed": true
+  },
+  "githubCI": {
+    "url": "https://github.com/tonniescj-hub/BlockNotes/actions/runs/38063667893",
+    "conclusion": "success"
   }
 }

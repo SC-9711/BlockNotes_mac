@@ -8,6 +8,7 @@
   },
   "type": "module",
   "description": "A local-first voxel study for your notes",
+  "author": "tonniescj-hub",
   "repository": { "type": "git", "url": "https://github.com/tonniescj-hub/BlockNotes.git" },
   "homepage": "https://github.com/tonniescj-hub/BlockNotes#readme",
   "bugs": { "url": "https://github.com/tonniescj-hub/BlockNotes/issues" },

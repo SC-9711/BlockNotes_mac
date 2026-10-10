@@ -1,5 +1,7 @@
 # BlockNotes
 
+[![Source checks](https://github.com/tonniescj-hub/BlockNotes/actions/workflows/ci.yml/badge.svg)](https://github.com/tonniescj-hub/BlockNotes/actions/workflows/ci.yml)
+
 一间可以写笔记的 3D 方块书房。面向 Windows，笔记保存在本机 SQLite；通过书与笔记录、讲台阅读、书架分类、箱子归档。固定主视角，鼠标带来小幅平滑视差，没有角色漫游。
 
 当前为 **0.1.0 Windows x64 版本**。实际可下载文件见 [Releases](https://github.com/tonniescj-hub/BlockNotes/releases)，其他平台尚未验收。项目由 tonniescj-hub 发起和维护，免费分享；项目自身代码采用 MIT。

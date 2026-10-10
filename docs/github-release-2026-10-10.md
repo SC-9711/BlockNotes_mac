@@ -23,8 +23,10 @@
 | 保存与重新打开 | 首次准备后中文笔记可靠保存，重启保持一致，不再下载 |
 | 断网回归 | 屏蔽全部 HTTP / HTTPS 并验证外部请求失败；重新加载仍显示完整书房，可以检索已保存笔记 |
 | Windows 默认打包 | 通过；源码 / 声明共 22 个文件与 ASAR 对照，外围目录及 ASAR 禁止文件审查通过，原版资源数为 0 |
+| 实际 ZIP 解压运行 | 解压到含中文和空格的独立目录，文件与 ASAR 复查通过；解压后的程序断网进入书房并检索已保存笔记 |
 | 文档截图 | 实际应用的 9 个界面；19 篇虚构样例内容未改变，页面脚本错误为 0；已逐图检查 |
 | 生产依赖漏洞检查 | npm audit --omit=dev：0 项，检查日期为本报告日期 |
+| GitHub Windows CI | [首次公开提交的运行](https://github.com/tonniescj-hub/BlockNotes/actions/runs/38063667893)成功；全新 npm ci、源码审查、类型检查、44 项测试和生产构建全部通过 |
 
 可复查的脱敏日志位于 [validation/2026-10-10](validation/2026-10-10/)。公共 CI 检查源码、类型、测试和构建；完整 Electron 与下载验证仍是本机验收，不将游戏资源上传至 CI。
 
@@ -37,4 +39,8 @@
 - 若在资源准备过程中强制结束进程，未启用的暂存目录可能残留；已有资源指针和笔记不受影响，重启可重试。
 - 模式扫描不等于完整秘密审计；二进制截图及品牌素材的来源另见 COPYRIGHT.md 与截图说明。
 
-下载地址：[v0.1.0](https://github.com/tonniescj-hub/BlockNotes/releases/tag/v0.1.0)。实际附件、校验和以及 GitHub CI 结果以仓库页面为准。
+下载地址：[v0.1.0](https://github.com/tonniescj-hub/BlockNotes/releases/tag/v0.1.0)。Windows x64 ZIP 为 171,921,430 字节。
+
+SHA-256：`26ca86e6255bbd0655e4d26ce29d419e3d211090ebf0ecb764a6b0ad3f9f94f5`。
+
+项目启用了私密漏洞报告；一般缺陷在 Issue 中提交，真实笔记库与完整备份不要公开附上。

@@ -6,4 +6,4 @@ BlockNotes 的数据库和备份保存在本机，默认数据库位于 `%APPDAT
 
 涉及数据损坏时，先保留原数据库、WAL/SHM 文件和已有备份；不要删除数据目录，不要在唯一副本上尝试修复。应用关闭后再制作完整副本。
 
-漏洞披露渠道将在仓库建立后配置 GitHub Private vulnerability reporting。在启用前，请勿在公开 Issue 披露可直接利用的漏洞细节；本文件当前不承诺已经存在私密报告渠道，也不承诺响应时限。
+仓库已启用 GitHub Private vulnerability reporting：请通过 [私密漏洞报告](https://github.com/tonniescj-hub/BlockNotes/security/advisories/new) 提交可利用的安全缺陷，不要在公开 Issue 披露利用细节。项目不承诺固定响应时限。
