@@ -1,0 +1,828 @@
+{
+  "version": "1.21",
+  "clientSha1": "0e9a07b9bb3390602f977073aa12884a4ce12431",
+  "indexSha1": "00551f206ccb65cb965fd0aebc14d22cda282db7",
+  "fontTimestamp": "3874365130",
+  "files": [
+    {
+      "path": "font/default.json",
+      "sha1": "f4912793eb515fc90c6e3364b66c3a2dff5daf60",
+      "size": 398
+    },
+    {
+      "path": "font/include/default.json",
+      "sha1": "83145d6437f85e799ef9b8548e9eb6e5db394c1f",
+      "size": 19118
+    },
+    {
+      "path": "font/minecraft-pixel.otf",
+      "sha1": "81af07a0c7bf1f1e4c03d0f925d61ebb1491f716",
+      "size": 26987608
+    },
+    {
+      "path": "models/block/block.json",
+      "sha1": "a0fa1da164b84ada5126656f2ca45476fba155e5",
+      "size": 997
+    },
+    {
+      "path": "models/block/bookshelf.json",
+      "sha1": "aa5aa3740d4785b28bf152492ce6977af3e2e759",
+      "size": 147
+    },
+    {
+      "path": "models/block/brown_carpet.json",
+      "sha1": "952abeb86d725a31736ea10f9b90d141f2006afe",
+      "size": 102
+    },
+    {
+      "path": "models/block/carpet.json",
+      "sha1": "ce848fe113aaa6fb87491b9e50abb97941483da2",
+      "size": 773
+    },
+    {
+      "path": "models/block/cube_column.json",
+      "sha1": "422f273deddae558270b9475da7db93c904e0741",
+      "size": 232
+    },
+    {
+      "path": "models/block/cube_top.json",
+      "sha1": "3c7d556e5178d51833aa1fb47be335fb17450347",
+      "size": 233
+    },
+    {
+      "path": "models/block/cube.json",
+      "sha1": "6273da0deda46e00d3e64ce1a3b11a1e0da2a924",
+      "size": 584
+    },
+    {
+      "path": "models/block/dark_oak_slab_top.json",
+      "sha1": "0539f9d94dd91c13d276f9f7009db903b146b035",
+      "size": 204
+    },
+    {
+      "path": "models/block/dark_oak_slab.json",
+      "sha1": "1c05770c77c54dcf252af1958608ce864a47b051",
+      "size": 200
+    },
+    {
+      "path": "models/block/dark_oak_stairs.json",
+      "sha1": "85db865edc6802bc3b9b5e2ea2c8430c04a732fb",
+      "size": 202
+    },
+    {
+      "path": "models/block/dark_oak_trapdoor_bottom.json",
+      "sha1": "4bf2697c50e45ac37accf787e603f7d774fcc666",
+      "size": 130
+    },
+    {
+      "path": "models/block/fence_post.json",
+      "sha1": "15e39bda3868b314c74df0921dae21bd471629dd",
+      "size": 731
+    },
+    {
+      "path": "models/block/flower_pot_cross.json",
+      "sha1": "91c61e3f302cc996a49bef6b188372b76f20b48d",
+      "size": 3296
+    },
+    {
+      "path": "models/block/flower_pot.json",
+      "sha1": "e79e1eeef3af622167dd6f6cb438fdd3f0848766",
+      "size": 2580
+    },
+    {
+      "path": "models/block/jukebox.json",
+      "sha1": "660d444b76f4204d88cd6d54a57c6b87a65bd4eb",
+      "size": 148
+    },
+    {
+      "path": "models/block/ladder.json",
+      "sha1": "197000013e6e593698bebc48721b7e8457a07691",
+      "size": 452
+    },
+    {
+      "path": "models/block/lantern_hanging.json",
+      "sha1": "08d48d5129e8946e2cf541f47d2800e00febf163",
+      "size": 120
+    },
+    {
+      "path": "models/block/lantern.json",
+      "sha1": "74c5d44fb55987118afbbfa717f8468923ccecff",
+      "size": 112
+    },
+    {
+      "path": "models/block/lectern.json",
+      "sha1": "efd5b1673f18980b165b11bc80568052d14832b5",
+      "size": 2316
+    },
+    {
+      "path": "models/block/oak_fence_post.json",
+      "sha1": "44f87f34e9acd12a181e425d6d1024d50f28b434",
+      "size": 109
+    },
+    {
+      "path": "models/block/oak_slab.json",
+      "sha1": "c33ed55830323c16fdf359ccd5451b887bc086b2",
+      "size": 185
+    },
+    {
+      "path": "models/block/oak_stairs.json",
+      "sha1": "6ba83fbbbef1f7f3ccb4f46507147b1a87d681ef",
+      "size": 187
+    },
+    {
+      "path": "models/block/potted_oak_sapling.json",
+      "sha1": "56bb79c531f813bae3937647393d120b062d4bce",
+      "size": 114
+    },
+    {
+      "path": "models/block/potted_poppy.json",
+      "sha1": "f4d4062d05ef8808bb12d85a05b6fd716dee8a58",
+      "size": 108
+    },
+    {
+      "path": "models/block/red_carpet.json",
+      "sha1": "5a778d3fa617815c93027f858a76e5844459994b",
+      "size": 100
+    },
+    {
+      "path": "models/block/slab_top.json",
+      "sha1": "84c8d408a51952de5787defe126e443d2ad711bc",
+      "size": 733
+    },
+    {
+      "path": "models/block/slab.json",
+      "sha1": "98d8c804c06eaf29807f83e688133fb02405b0f1",
+      "size": 761
+    },
+    {
+      "path": "models/block/spruce_fence_post.json",
+      "sha1": "9f6aaffdcd5bc030a153510699bc93a8e60b0f8b",
+      "size": 112
+    },
+    {
+      "path": "models/block/spruce_slab_top.json",
+      "sha1": "470dbed4382309f90aff0e96a219a7a20864767b",
+      "size": 198
+    },
+    {
+      "path": "models/block/spruce_slab.json",
+      "sha1": "360aba5b43babef02adeaa17877f01b2dfbac509",
+      "size": 194
+    },
+    {
+      "path": "models/block/stairs.json",
+      "sha1": "ed0f1c46d480d7a1f2d02b568a376ce94ebb2436",
+      "size": 1806
+    },
+    {
+      "path": "models/block/template_hanging_lantern.json",
+      "sha1": "82cf0c78b2d26086aced45a2aef37a8070c4e2b0",
+      "size": 2013
+    },
+    {
+      "path": "models/block/template_lantern.json",
+      "sha1": "8c1d14805e6c1f484c8575434840f3ec133defb9",
+      "size": 1956
+    },
+    {
+      "path": "models/block/template_trapdoor_bottom.json",
+      "sha1": "e56b51a0b69310b1cfc2eba4f764b85ae97882f6",
+      "size": 792
+    },
+    {
+      "path": "models/block/thin_block.json",
+      "sha1": "3573064cdb3d48e29de46d286b48a93afb49cffb",
+      "size": 560
+    },
+    {
+      "path": "models/item/bookshelf.json",
+      "sha1": "fe1b8efa0e770ebcc55661f1c8bd2e5fba0d4f80",
+      "size": 43
+    },
+    {
+      "path": "models/item/chest.json",
+      "sha1": "ca86627d4dfe454efd5003323c3765f0f395306b",
+      "size": 1039
+    },
+    {
+      "path": "models/item/jukebox.json",
+      "sha1": "00e9e2b3b75301cb3857aab2c6d5913c8bd537ab",
+      "size": 41
+    },
+    {
+      "path": "models/item/lectern.json",
+      "sha1": "81b396ddb61eabe5f0c869698d094202dc3bc4c2",
+      "size": 41
+    },
+    {
+      "path": "sounds/block/chest/close1.ogg",
+      "sha1": "eddb25d126a93fd0dd26e0dd9ac1c0ef094b79f6",
+      "size": 17135
+    },
+    {
+      "path": "sounds/block/chest/close2.ogg",
+      "sha1": "8524cf7e2b56d165a1ff6e3a219d3d8c406e90b3",
+      "size": 18271
+    },
+    {
+      "path": "sounds/block/chest/close3.ogg",
+      "sha1": "19786806146a50a06d8dbd36a033aefbb8fefd8a",
+      "size": 16175
+    },
+    {
+      "path": "sounds/block/chest/open.ogg",
+      "sha1": "f993dbcc8cdde669020b9f988f091d997006ce8b",
+      "size": 8916
+    },
+    {
+      "path": "sounds/block/chiseled_bookshelf/insert1.ogg",
+      "sha1": "922d1220c168dcc899672b6b26bbbbd3662507bb",
+      "size": 15038
+    },
+    {
+      "path": "sounds/block/chiseled_bookshelf/insert2.ogg",
+      "sha1": "d422688a19eb4e943b40c28d38f7b7b6f51f9332",
+      "size": 13486
+    },
+    {
+      "path": "sounds/block/chiseled_bookshelf/insert3.ogg",
+      "sha1": "8ea84646d64a6a45e53b9f648ca3fae7c825ef34",
+      "size": 12618
+    },
+    {
+      "path": "sounds/block/chiseled_bookshelf/insert4.ogg",
+      "sha1": "5cf323a496d65365dbcc7eb219a4fcc0bb5f57a1",
+      "size": 15043
+    },
+    {
+      "path": "sounds/block/chiseled_bookshelf/pickup1.ogg",
+      "sha1": "989f136de03972f34055b0674ed7499440158c0e",
+      "size": 14204
+    },
+    {
+      "path": "sounds/block/chiseled_bookshelf/pickup2.ogg",
+      "sha1": "442fcb0cd57d4b570a17712e0cccaadb8fa8f598",
+      "size": 16725
+    },
+    {
+      "path": "sounds/block/chiseled_bookshelf/pickup3.ogg",
+      "sha1": "96757629d4b9d285f639257c6a30452cd7e79b0f",
+      "size": 17039
+    },
+    {
+      "path": "sounds/item/book/close_put1.ogg",
+      "sha1": "1bd5a33c1b50627d5fd45a44cf78ad6d96f483dd",
+      "size": 4702
+    },
+    {
+      "path": "sounds/item/book/close_put2.ogg",
+      "sha1": "eefec8ea4c0e3a2cf4357226bdcc1b2b7919e8ac",
+      "size": 4981
+    },
+    {
+      "path": "sounds/item/book/open_flip1.ogg",
+      "sha1": "234d6a686516c264a370ea834b87d47ae7334ef7",
+      "size": 6615
+    },
+    {
+      "path": "sounds/item/book/open_flip2.ogg",
+      "sha1": "c7d1608c706d75df8f074fd04da027fdbf9ec5c1",
+      "size": 6814
+    },
+    {
+      "path": "sounds/item/book/open_flip3.ogg",
+      "sha1": "95f697cb272bb10a744a5062463a6e737a1c4ec2",
+      "size": 6289
+    },
+    {
+      "path": "sounds/random/click_stereo.ogg",
+      "sha1": "2fe092579d9637e2d160319820ee08e60a237bb7",
+      "size": 7046
+    },
+    {
+      "path": "sounds/records/11.ogg",
+      "sha1": "f86c466225dad2f32c90981485c1965671b3e8e6",
+      "size": 591997
+    },
+    {
+      "path": "sounds/records/13.ogg",
+      "sha1": "9cbed0e40296f68c61090c9b81816061e068a0ec",
+      "size": 1071028
+    },
+    {
+      "path": "sounds/records/5.ogg",
+      "sha1": "ef72603358a5f2a717cf0b718af677025f9d3c79",
+      "size": 5254778
+    },
+    {
+      "path": "sounds/records/blocks.ogg",
+      "sha1": "9b2a01e0d0456b8fbe33557fbc19d4fe342f94d6",
+      "size": 2587419
+    },
+    {
+      "path": "sounds/records/cat.ogg",
+      "sha1": "d1eb3d2e39bf1f6289cfcbca44e1c9bb508b20f0",
+      "size": 1286636
+    },
+    {
+      "path": "sounds/records/chirp.ogg",
+      "sha1": "ec8a2cbdf68b4e2136098ec33695e1c53625ddb8",
+      "size": 1379756
+    },
+    {
+      "path": "sounds/records/creator_music_box.ogg",
+      "sha1": "e15def690303d9631fde9f60ea6d38de8e62b5db",
+      "size": 1574834
+    },
+    {
+      "path": "sounds/records/creator.ogg",
+      "sha1": "d1c3c66face8215ff2f9635f4d7c168fdea34d88",
+      "size": 4682476
+    },
+    {
+      "path": "sounds/records/far.ogg",
+      "sha1": "f46c38e7d6d7b19d5d68aa18b557215738deb36a",
+      "size": 1285938
+    },
+    {
+      "path": "sounds/records/mall.ogg",
+      "sha1": "83233451430516d839eaee855a2f789b8985d457",
+      "size": 1430016
+    },
+    {
+      "path": "sounds/records/mellohi.ogg",
+      "sha1": "6b44d0539073353b7a05330ccddc5735ba5efca4",
+      "size": 663709
+    },
+    {
+      "path": "sounds/records/otherside.ogg",
+      "sha1": "a5effd79795773422bb4de85841838f3ad9c216d",
+      "size": 5649721
+    },
+    {
+      "path": "sounds/records/pigstep.ogg",
+      "sha1": "9ffb1791e8aba8f266a673abec1846c3bf8fb8cc",
+      "size": 4838555
+    },
+    {
+      "path": "sounds/records/precipice.ogg",
+      "sha1": "a069bdaa24c0d9b9c0a2907113c5716ae5775846",
+      "size": 9818275
+    },
+    {
+      "path": "sounds/records/relic.ogg",
+      "sha1": "f6c8af3b270a609b12eddd4a56fe2139662782e8",
+      "size": 5838275
+    },
+    {
+      "path": "sounds/records/stal.ogg",
+      "sha1": "2c4f3f8f259dc782867727311fea30875ecc3917",
+      "size": 1180789
+    },
+    {
+      "path": "sounds/records/strad.ogg",
+      "sha1": "f34afa3ba5f756e90a1f61023bbe069ee8442608",
+      "size": 1558180
+    },
+    {
+      "path": "sounds/records/wait.ogg",
+      "sha1": "876655d1691803f4cef17a6288d971285be79c6a",
+      "size": 1845255
+    },
+    {
+      "path": "sounds/records/ward.ogg",
+      "sha1": "f685021d4f26d6b590bffb341908e25e92e18cef",
+      "size": 1987588
+    },
+    {
+      "path": "textures/block/bookshelf.png",
+      "sha1": "5f4e2d3330688aefc09e9bf8431da9797da8caa3",
+      "size": 319
+    },
+    {
+      "path": "textures/block/brown_wool.png",
+      "sha1": "77b79b416fd5075f51f6932eb91fa472517cec58",
+      "size": 381
+    },
+    {
+      "path": "textures/block/dark_oak_log_top.png",
+      "sha1": "f6dd218d020e7179151ddcfd70a21d5c09972975",
+      "size": 243
+    },
+    {
+      "path": "textures/block/dark_oak_log.png",
+      "sha1": "684490743c23e1fdd9391336b4f52d0e844dbdde",
+      "size": 193
+    },
+    {
+      "path": "textures/block/dark_oak_planks.png",
+      "sha1": "d0981945c658cc94de4e3a74bc22e1173a8355e0",
+      "size": 202
+    },
+    {
+      "path": "textures/block/dark_oak_trapdoor.png",
+      "sha1": "b55538725a85cdccfe4db963acf58baa7f12e1e1",
+      "size": 189
+    },
+    {
+      "path": "textures/block/dirt.png",
+      "sha1": "89cc947fc98b986870b79ffda3ea6534c85926fc",
+      "size": 200
+    },
+    {
+      "path": "textures/block/flower_pot.png",
+      "sha1": "a94aab811a33ac2cb58286ddb83e2cde3e163ba3",
+      "size": 149
+    },
+    {
+      "path": "textures/block/glass.png",
+      "sha1": "c57de99c7649413d119e55b3e8eae4e68de77422",
+      "size": 147
+    },
+    {
+      "path": "textures/block/grass_block_side.png",
+      "sha1": "956eb8bd4f511db620c22c65ab9e5a319550b784",
+      "size": 345
+    },
+    {
+      "path": "textures/block/grass_block_top.png",
+      "sha1": "57447ae357bce2055bdf1023d91edeaa10310200",
+      "size": 298
+    },
+    {
+      "path": "textures/block/green_wool.png",
+      "sha1": "32aeb3806a748d3937b081b12a82c48e19496097",
+      "size": 386
+    },
+    {
+      "path": "textures/block/jukebox_side.png",
+      "sha1": "e3f112ea0a7e66e2cf0b93b7e841093521d6dcb3",
+      "size": 174
+    },
+    {
+      "path": "textures/block/jukebox_top.png",
+      "sha1": "aa7f6bfac68bb5fd78b65ea6ae3c0b0c8e448de5",
+      "size": 179
+    },
+    {
+      "path": "textures/block/ladder.png",
+      "sha1": "bacece62887c161002638dfc7c54760dc42c474b",
+      "size": 159
+    },
+    {
+      "path": "textures/block/lantern.png",
+      "sha1": "7c03a06c0b6c6502553b6f0b08b54c115993348b",
+      "size": 286
+    },
+    {
+      "path": "textures/block/lantern.png.mcmeta",
+      "sha1": "67d1ffe949822d9ea1913d0ac526b2d0cb3c8bd2",
+      "size": 43
+    },
+    {
+      "path": "textures/block/lectern_base.png",
+      "sha1": "08d953b704572130a281d289cebb4291d1b3f137",
+      "size": 222
+    },
+    {
+      "path": "textures/block/lectern_front.png",
+      "sha1": "03896af55ce987a82b4574d7394b9f8c825d3469",
+      "size": 258
+    },
+    {
+      "path": "textures/block/lectern_sides.png",
+      "sha1": "31f6e1fbb808e28e9339a796a27faf9d3475a545",
+      "size": 178
+    },
+    {
+      "path": "textures/block/lectern_top.png",
+      "sha1": "0424eaa71864f777d5d70fd9914525a0354ade03",
+      "size": 194
+    },
+    {
+      "path": "textures/block/mossy_stone_bricks.png",
+      "sha1": "50d18c4c2afceb9449c68852170317e541ac02eb",
+      "size": 258
+    },
+    {
+      "path": "textures/block/oak_leaves.png",
+      "sha1": "88edd77292cde729c8a429aa78fa95ff2d9e2136",
+      "size": 202
+    },
+    {
+      "path": "textures/block/oak_log_top.png",
+      "sha1": "727843aec46e39a02db72374b1390e4e8f7dbb75",
+      "size": 223
+    },
+    {
+      "path": "textures/block/oak_log.png",
+      "sha1": "940a607c7ac36d192163958d9d0cb8f2a9f7bd38",
+      "size": 193
+    },
+    {
+      "path": "textures/block/oak_planks.png",
+      "sha1": "34173d031fc5006b202a4116c72423cc4ba8addd",
+      "size": 202
+    },
+    {
+      "path": "textures/block/oak_sapling.png",
+      "sha1": "e84483560f03bc7a73932ba1c750040050d7e434",
+      "size": 221
+    },
+    {
+      "path": "textures/block/poppy.png",
+      "sha1": "f4c15223a941f40abdba63aabc25aae7a48a6a5b",
+      "size": 170
+    },
+    {
+      "path": "textures/block/red_wool.png",
+      "sha1": "42cde1f7ad1ee562fe4e15bff2194d18456a3685",
+      "size": 374
+    },
+    {
+      "path": "textures/block/spruce_planks.png",
+      "sha1": "d97b4549f77b96ddc38fea8aca74bfc02c65c2d6",
+      "size": 202
+    },
+    {
+      "path": "textures/block/stone_bricks.png",
+      "sha1": "c5961d286a8c0357a6d68adcd597d1c3d5794b71",
+      "size": 199
+    },
+    {
+      "path": "textures/block/stripped_spruce_log_top.png",
+      "sha1": "27d3d2aa573b0327824f8e39103ac5b27d48dc46",
+      "size": 236
+    },
+    {
+      "path": "textures/block/stripped_spruce_log.png",
+      "sha1": "dcf8ea001dfcb9f0e80a468b76ee4e7f46c5cd4f",
+      "size": 234
+    },
+    {
+      "path": "textures/entity/chest/normal.png",
+      "sha1": "457cfaa60643cd5c88dbeab7a7717a06f3ce1ce3",
+      "size": 840
+    },
+    {
+      "path": "textures/entity/enchanting_table_book.png",
+      "sha1": "32993a9709a767e09dceaaa02491ceef93e43666",
+      "size": 322
+    },
+    {
+      "path": "textures/font/ascii.png",
+      "sha1": "b015d6cac492732cbbf29ad9a5e0fd463e75b84a",
+      "size": 810
+    },
+    {
+      "path": "textures/gui/book.png",
+      "sha1": "780fcc54ee406c64a3e172b0d417330b9d081542",
+      "size": 5299
+    },
+    {
+      "path": "textures/gui/container/generic_54.png",
+      "sha1": "c4bf2bd6a108d2c9f73e0dc74f6f99e5acfcb5cd",
+      "size": 348
+    },
+    {
+      "path": "textures/gui/container/inventory.png",
+      "sha1": "44c96b674ad438d2c0d8c816b70b52a1a27a38fd",
+      "size": 454
+    },
+    {
+      "path": "textures/gui/sprites/container/slot.png",
+      "sha1": "6cc26189cc6e5c2b1e8780357f1bc37815f90625",
+      "size": 108
+    },
+    {
+      "path": "textures/gui/sprites/hud/hotbar_selection.png",
+      "sha1": "c87141cbfebba79b51c309fcef5975ea9ded002a",
+      "size": 504
+    },
+    {
+      "path": "textures/gui/sprites/hud/hotbar.png",
+      "sha1": "8035ad2e0e175846060174125e82a07139fc56cb",
+      "size": 1872
+    },
+    {
+      "path": "textures/gui/sprites/widget/button_disabled.png",
+      "sha1": "c4cfa35d9a301141bfa7d35b66ddf5e820e59a16",
+      "size": 1158
+    },
+    {
+      "path": "textures/gui/sprites/widget/button_disabled.png.mcmeta",
+      "sha1": "9ffeef6939aac78028b8dc7a8d637f03ba6f4b01",
+      "size": 164
+    },
+    {
+      "path": "textures/gui/sprites/widget/button_highlighted.png",
+      "sha1": "d2fbd6d805506112eef3fc314571e1c6b7318f99",
+      "size": 1703
+    },
+    {
+      "path": "textures/gui/sprites/widget/button_highlighted.png.mcmeta",
+      "sha1": "11bf074d748f2449c8133e33f5c4ff652092d2de",
+      "size": 164
+    },
+    {
+      "path": "textures/gui/sprites/widget/button.png",
+      "sha1": "f40672478dcb295d71c73ce79a731b25546d6571",
+      "size": 1699
+    },
+    {
+      "path": "textures/gui/sprites/widget/button.png.mcmeta",
+      "sha1": "11bf074d748f2449c8133e33f5c4ff652092d2de",
+      "size": 164
+    },
+    {
+      "path": "textures/gui/sprites/widget/page_backward_highlighted.png",
+      "sha1": "8cbc17044edd14fe6a046ab8f7f2b44fa154a8c9",
+      "size": 212
+    },
+    {
+      "path": "textures/gui/sprites/widget/page_backward.png",
+      "sha1": "086feef71c2d9da44e59d47020479f5f0631a714",
+      "size": 196
+    },
+    {
+      "path": "textures/gui/sprites/widget/page_forward_highlighted.png",
+      "sha1": "4c281d5f7ab60893cda20a2c035452b9dee57635",
+      "size": 214
+    },
+    {
+      "path": "textures/gui/sprites/widget/page_forward.png",
+      "sha1": "d52bd6f0b095831eb6a1c76f72bce47971a45c08",
+      "size": 196
+    },
+    {
+      "path": "textures/gui/sprites/widget/slider_handle_highlighted.png",
+      "sha1": "43e5847700fca78976cf10560c38d296840c095e",
+      "size": 237
+    },
+    {
+      "path": "textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta",
+      "sha1": "ca537cb0bdecc7e8692958f8b48af7f8cc017f71",
+      "size": 285
+    },
+    {
+      "path": "textures/gui/sprites/widget/slider_handle.png",
+      "sha1": "8634910fa1ab5d5bdd29ea4092a0bc82f5940a1c",
+      "size": 242
+    },
+    {
+      "path": "textures/gui/sprites/widget/slider_handle.png.mcmeta",
+      "sha1": "ca537cb0bdecc7e8692958f8b48af7f8cc017f71",
+      "size": 285
+    },
+    {
+      "path": "textures/gui/sprites/widget/slider_highlighted.png",
+      "sha1": "d0be00966212024764fa1717bcf4882ef57dbc8f",
+      "size": 1165
+    },
+    {
+      "path": "textures/gui/sprites/widget/slider_highlighted.png.mcmeta",
+      "sha1": "9ffeef6939aac78028b8dc7a8d637f03ba6f4b01",
+      "size": 164
+    },
+    {
+      "path": "textures/gui/sprites/widget/slider.png",
+      "sha1": "c4cfa35d9a301141bfa7d35b66ddf5e820e59a16",
+      "size": 1158
+    },
+    {
+      "path": "textures/gui/sprites/widget/slider.png.mcmeta",
+      "sha1": "9ffeef6939aac78028b8dc7a8d637f03ba6f4b01",
+      "size": 164
+    },
+    {
+      "path": "textures/item/book.png",
+      "sha1": "6e1e9b585d5b01fd4a8d1593dd817e3d082e6bed",
+      "size": 203
+    },
+    {
+      "path": "textures/item/compass_00.png",
+      "sha1": "f03469c51f655cfd4a3a1e7a28921574043c89d6",
+      "size": 219
+    },
+    {
+      "path": "textures/item/compass_16.png",
+      "sha1": "138bb23190b7c86d5f7ceffd8f6259bc12103b7a",
+      "size": 212
+    },
+    {
+      "path": "textures/item/music_disc_11.png",
+      "sha1": "99921859c2ff5e1f094adf86ee27627955fe745e",
+      "size": 198
+    },
+    {
+      "path": "textures/item/music_disc_13.png",
+      "sha1": "397555ac8be3cbddfe3fe88ead4699f930d9362f",
+      "size": 177
+    },
+    {
+      "path": "textures/item/music_disc_5.png",
+      "sha1": "a8cdfc0b229e6d4554180a4210b9ee6d79ea1b06",
+      "size": 210
+    },
+    {
+      "path": "textures/item/music_disc_blocks.png",
+      "sha1": "6d4899c9c88ee394844f87e2e721fc25eb4be5f1",
+      "size": 179
+    },
+    {
+      "path": "textures/item/music_disc_cat.png",
+      "sha1": "ad77650bed10160c5ef8c37854e3b539fc112371",
+      "size": 185
+    },
+    {
+      "path": "textures/item/music_disc_chirp.png",
+      "sha1": "f5afeb416d2c3f2120f8d55ce274677b11d4bead",
+      "size": 183
+    },
+    {
+      "path": "textures/item/music_disc_creator_music_box.png",
+      "sha1": "b4b41c16018aa6a51e591a025e99ca8f210626c1",
+      "size": 208
+    },
+    {
+      "path": "textures/item/music_disc_creator.png",
+      "sha1": "fbf83bd8e87579c739fdb7ccf79593c837aa28c5",
+      "size": 215
+    },
+    {
+      "path": "textures/item/music_disc_far.png",
+      "sha1": "0a5353795d176a6eb7fb32f8a92e13f7a3ef5d9f",
+      "size": 181
+    },
+    {
+      "path": "textures/item/music_disc_mall.png",
+      "sha1": "d6a388be2246812fbe841a430509b2e0bb273315",
+      "size": 184
+    },
+    {
+      "path": "textures/item/music_disc_mellohi.png",
+      "sha1": "226dec4ca5cb970fbdc7bf4d1f38893b06de7530",
+      "size": 180
+    },
+    {
+      "path": "textures/item/music_disc_otherside.png",
+      "sha1": "44983ebd8b59412f2fba26d5f752b0c78c27a197",
+      "size": 200
+    },
+    {
+      "path": "textures/item/music_disc_pigstep.png",
+      "sha1": "56aeb328f3859ab6798db69f00821d31aec0f2e6",
+      "size": 204
+    },
+    {
+      "path": "textures/item/music_disc_precipice.png",
+      "sha1": "45cc172067cd7c71f3bf37a8f19a9a55c2a9ec43",
+      "size": 232
+    },
+    {
+      "path": "textures/item/music_disc_relic.png",
+      "sha1": "f00d666990d023e4dc248a00c5065ec034786495",
+      "size": 217
+    },
+    {
+      "path": "textures/item/music_disc_stal.png",
+      "sha1": "9b8f416dcdf6a6f3598f1df67bd81fcca3078323",
+      "size": 175
+    },
+    {
+      "path": "textures/item/music_disc_strad.png",
+      "sha1": "b3cfe05be96257ee1393d1cc15718aa34356ea73",
+      "size": 173
+    },
+    {
+      "path": "textures/item/music_disc_wait.png",
+      "sha1": "55d11eb6dd6a69c3dd58970a4ea8b90e0dcb471a",
+      "size": 192
+    },
+    {
+      "path": "textures/item/music_disc_ward.png",
+      "sha1": "9cc838540ebf876fa5df9f2007706bb99a715506",
+      "size": 185
+    },
+    {
+      "path": "textures/item/name_tag.png",
+      "sha1": "d74a22b9c9bfdbc213a318b8933671feeacbf44a",
+      "size": 209
+    },
+    {
+      "path": "textures/item/writable_book.png",
+      "sha1": "f2cdd831036a331ca452eda613a75dfa8ff238c4",
+      "size": 247
+    },
+    {
+      "path": "textures/item/written_book.png",
+      "sha1": "28f1a34a50e3e6d31f25c9a2c2d87b310fa53f65",
+      "size": 211
+    },
+    {
+      "path": "textures/particle/note.png",
+      "sha1": "24dc746a60ef449b76c8b6367ac70dd030e1f626",
+      "size": 132
+    }
+  ]
+}

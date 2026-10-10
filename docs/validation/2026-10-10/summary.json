@@ -1,0 +1,47 @@
+{
+  "firstLaunch": {
+    "coldStart": true,
+    "autoDownload": true,
+    "ready": true,
+    "rawAndGeneratedResourceFilesMatchingDemo": 164,
+    "noteSavedAndReopened": true,
+    "secondLaunchDownloads": false,
+    "elapsedMs": 135975
+  },
+  "offline": {
+    "httpAndHttpsBlocked": true,
+    "worldReady": true,
+    "resourceSetupSkipped": true,
+    "savedNoteSearchable": true
+  },
+  "publicPackage": {
+    "main": "electron/main.cjs",
+    "verifiedSourceFiles": 22,
+    "gameAssetsInAsar": 0,
+    "publicPackage": true,
+    "appAsarSha256": "6c2ddc15d3daddec4dd2e3bc4e77f5ebe05eda20fcc8c40a8914460734a939eb"
+  },
+  "screenshots": {
+    "screenshots": 9,
+    "source": "Actual Windows app; original fictional study-note fixtures",
+    "notes": 19,
+    "noteDataUnchanged": true,
+    "pageErrors": []
+  },
+  "productionVulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "allVulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 8,
+    "high": 0,
+    "critical": 0,
+    "total": 8
+  }
+}

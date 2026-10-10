@@ -1,0 +1,31 @@
+name: 问题反馈
+description: 保存、恢复、书房交互或界面问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "请使用虚构笔记复现。不要上传个人数据库、备份、密钥或私人日志。"
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本与运行方式
+      placeholder: "例如：0.1.0 / Windows 本地构建"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows 版本与资源准备情况
+      placeholder: "例如：Windows 11 x64，Java 1.21 本地资源已准备"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤、预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏截图或日志（可选）

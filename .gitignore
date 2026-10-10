@@ -1,0 +1,25 @@
+node_modules/
+dist/
+release/
+.local/
+test-results/
+playwright-report/
+*.log
+*.tsbuildinfo
+public/minecraft/
+artifacts/screenshots/
+artifacts/delivery/
+
+# Local credentials and user data must never enter source archives.
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.pem
+*.key
+*.pfx
+*.p12
+backups/
