@@ -1,0 +1,306 @@
+
+> blocknotes@0.1.0 test
+> node --test tests/storage.test.mjs tests/models.test.mjs tests/media.test.mjs tests/lighting.test.mjs tests/backup-http.test.mjs tests/public-source.test.mjs tests/resources.test.mjs
+
+TAP version 13
+# (node:52980) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:52980) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:52980) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:52980) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: BN-P1-02：浏览器恢复入口流式接收超过 64 MB 的自产备份，拒绝外部 Origin
+ok 1 - BN-P1-02：浏览器恢复入口流式接收超过 64 MB 的自产备份，拒绝外部 Origin
+  ---
+  duration_ms: 8483.0715
+  type: 'test'
+  ...
+# Subtest: block light attenuates through air; a sealed wall prevents light leaking
+ok 2 - block light attenuates through air; a sealed wall prevents light leaking
+  ---
+  duration_ms: 9.1949
+  type: 'test'
+  ...
+# Subtest: skylight reaches a room through the window and stops at opaque walls
+ok 3 - skylight reaches a room through the window and stops at opaque walls
+  ---
+  duration_ms: 4.2137
+  type: 'test'
+  ...
+# Subtest: a half-block desktop shades the space underneath while light can travel around it
+ok 4 - a half-block desktop shades the space underneath while light can travel around it
+  ---
+  duration_ms: 1.3691
+  type: 'test'
+  ...
+# Subtest: world vertex baking respects entity transforms without changing shared GUI textures
+ok 5 - world vertex baking respects entity transforms without changing shared GUI textures
+  ---
+  duration_ms: 4.1036
+  type: 'test'
+  ...
+# Subtest: 本地音频支持完整流、字节范围、尾部检索、HEAD 与非法范围
+ok 6 - 本地音频支持完整流、字节范围、尾部检索、HEAD 与非法范围
+  ---
+  duration_ms: 37.7127
+  type: 'test'
+  ...
+# Subtest: 1.21 箱盖外侧顶面使用 (28,0)-(42,14)，朝向与实体顶面一致
+ok 7 - 1.21 箱盖外侧顶面使用 (28,0)-(42,14)，朝向与实体顶面一致
+  ---
+  duration_ms: 2.5419
+  type: 'test'
+  ...
+# Subtest: 1.21 箱子转轴、盖高、锁扣和闭合高度保持像素比例
+ok 8 - 1.21 箱子转轴、盖高、锁扣和闭合高度保持像素比例
+  ---
+  duration_ms: 1.6457
+  type: 'test'
+  ...
+# Subtest: 讲台书使用完整七部件，封皮、书脊和独立翻页保持 1.21 尺寸
+ok 9 - 讲台书使用完整七部件，封皮、书脊和独立翻页保持 1.21 尺寸
+  ---
+  duration_ms: 1.9987
+  type: 'test'
+  ...
+# Subtest: 箱子物品使用独立的 30°/45° GUI 姿态，与普通方块 225° 区分
+ok 10 - 箱子物品使用独立的 30°/45° GUI 姿态，与普通方块 225° 区分
+  ---
+  duration_ms: 1.2861
+  type: 'test'
+  ...
+# Subtest: 讲台在单格地面上，悬灯连接横梁，桌灯使用顶面支撑
+ok 11 - 讲台在单格地面上，悬灯连接横梁，桌灯使用顶面支撑
+  ---
+  duration_ms: 1.4239
+  type: 'test'
+  ...
+# Subtest: 唱片机独占可见的地面格，与实体方块和栏杆无重叠
+ok 12 - 唱片机独占可见的地面格，与实体方块和栏杆无重叠
+  ---
+  duration_ms: 0.4116
+  type: 'test'
+  ...
+# Subtest: 原版梯子双向贴片从各自正面渲染，不重复绘制共面反面
+ok 13 - 原版梯子双向贴片从各自正面渲染，不重复绘制共面反面
+  ---
+  duration_ms: 1.2572
+  type: 'test'
+  ...
+# Subtest: 两组梯子正确贴在木柱南侧，原版 0.05 格间隙避免深度冲突
+ok 14 - 两组梯子正确贴在木柱南侧，原版 0.05 格间隙避免深度冲突
+  ---
+  duration_ms: 1.5457
+  type: 'test'
+  ...
+# Subtest: 公开源码审查忽略本地数据，干净源码和历史通过
+ok 15 - 公开源码审查忽略本地数据，干净源码和历史通过
+  ---
+  duration_ms: 724.3944
+  type: 'test'
+  ...
+# Subtest: 强制提交的游戏资源和随后删除的历史资源仍阻止发布
+ok 16 - 强制提交的游戏资源和随后删除的历史资源仍阻止发布
+  ---
+  duration_ms: 1476.1596
+  type: 'test'
+  ...
+# Subtest: 已删除的历史令牌仍阻止发布，日志不回显令牌
+ok 17 - 已删除的历史令牌仍阻止发布，日志不回显令牌
+  ---
+  duration_ms: 962.7839
+  type: 'test'
+  ...
+# Subtest: 资源路径限制与官方来源白名单拒绝目录穿越及其他域名
+ok 18 - 资源路径限制与官方来源白名单拒绝目录穿越及其他域名
+  ---
+  duration_ms: 0.7779
+  type: 'test'
+  ...
+# Subtest: 下载哈希校验、缓存复用与错误重试不启用坏资源
+ok 19 - 下载哈希校验、缓存复用与错误重试不启用坏资源
+  ---
+  duration_ms: 28.4427
+  type: 'test'
+  ...
+# Subtest: 首次准备失败保留笔记与旧激活指针，不留下可用的新资源包
+ok 20 - 首次准备失败保留笔记与旧激活指针，不留下可用的新资源包
+  ---
+  duration_ms: 7.6368
+  type: 'test'
+  ...
+# Subtest: 像素字体转换只使用合成夹具，同一字形输出稳定
+ok 21 - 像素字体转换只使用合成夹具，同一字形输出稳定
+  ---
+  duration_ms: 32.6434
+  type: 'test'
+  ...
+# (node:50492) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: 删除书架：同名新增空分类可删除，基础分类与陈旧名称受保护
+ok 22 - 删除书架：同名新增空分类可删除，基础分类与陈旧名称受保护
+  ---
+  duration_ms: 37.2716
+  type: 'test'
+  ...
+# Subtest: 删除书架：迁移所有状态笔记、保留正文和分页，拒绝陈旧编辑
+ok 23 - 删除书架：迁移所有状态笔记、保留正文和分页，拒绝陈旧编辑
+  ---
+  duration_ms: 44.1115
+  type: 'test'
+  ...
+# Subtest: 删除书架：删除失败整体回滚，旧备份仍可恢复且反复恢复不增副本
+ok 24 - 删除书架：删除失败整体回滚，旧备份仍可恢复且反复恢复不增副本
+  ---
+  duration_ms: 47.3216
+  type: 'test'
+  ...
+# Subtest: 空库 migration、默认分类与真实 SQLite 文件
+ok 25 - 空库 migration、默认分类与真实 SQLite 文件
+  ---
+  duration_ms: 27.2916
+  type: 'test'
+  ...
+# Subtest: 20 条中文/混合/长标题/空笔记，多书架和 1、2、3 字搜索
+ok 26 - 20 条中文/混合/长标题/空笔记，多书架和 1、2、3 字搜索
+  ---
+  duration_ms: 99.7247
+  type: 'test'
+  ...
+# Subtest: 编辑、重命名、标签、书架移动、归档和软删除恢复保持元数据
+ok 27 - 编辑、重命名、标签、书架移动、归档和软删除恢复保持元数据
+  ---
+  duration_ms: 44.7902
+  type: 'test'
+  ...
+# Subtest: 陈旧写入和非法归属被拒绝，事务不破坏正文
+ok 28 - 陈旧写入和非法归属被拒绝，事务不破坏正文
+  ---
+  duration_ms: 34.2164
+  type: 'test'
+  ...
+# Subtest: 写入失败向调用者报告，正文仍保留
+ok 29 - 写入失败向调用者报告，正文仍保留
+  ---
+  duration_ms: 29.4292
+  type: 'test'
+  ...
+# Subtest: 完整备份合并：相同笔记跳过，修改冲突另存副本，恢复失败原子回滚
+ok 30 - 完整备份合并：相同笔记跳过，修改冲突另存副本，恢复失败原子回滚
+  ---
+  duration_ms: 37.0467
+  type: 'test'
+  ...
+# Subtest: 重启、意外退出/WAL 恢复及每日 SQLite 备份
+ok 31 - 重启、意外退出/WAL 恢复及每日 SQLite 备份
+  ---
+  duration_ms: 93.0195
+  type: 'test'
+  ...
+# Subtest: 损坏数据库拒绝启动，不静默覆盖
+ok 32 - 损坏数据库拒绝启动，不静默覆盖
+  ---
+  duration_ms: 1.5233
+  type: 'test'
+  ...
+# Subtest: Markdown 导出支持中文、列表、引用、代码并拒绝不安全链接
+ok 33 - Markdown 导出支持中文、列表、引用、代码并拒绝不安全链接
+  ---
+  duration_ms: 30.1303
+  type: 'test'
+  ...
+# Subtest: 显式空白分页随笔记和备份保留，检索正文不截断，非法分页被拒绝
+ok 34 - 显式空白分页随笔记和备份保留，检索正文不截断，非法分页被拒绝
+  ---
+  duration_ms: 32.0441
+  type: 'test'
+  ...
+# Subtest: 音乐设置落库，不接受非法音量或资源路径，不改变笔记内容
+ok 35 - 音乐设置落库，不接受非法音量或资源路径，不改变笔记内容
+  ---
+  duration_ms: 35.9299
+  type: 'test'
+  ...
+# Subtest: BN-P1-01：冲突旧备份连续恢复三次且重启后再恢复，只保留一个未修改副本
+ok 36 - BN-P1-01：冲突旧备份连续恢复三次且重启后再恢复，只保留一个未修改副本
+  ---
+  duration_ms: 38.044
+  type: 'test'
+  ...
+# Subtest: BN-P1-01：同标题不同内容、修改过的副本、旧版已有恢复副本都不能丢失
+ok 37 - BN-P1-01：同标题不同内容、修改过的副本、旧版已有恢复副本都不能丢失
+  ---
+  duration_ms: 50.4949
+  type: 'test'
+  ...
+# Subtest: BN-P1-01：冲突书架恢复也必须幂等，失败不留下来源记录或半次恢复
+ok 38 - BN-P1-01：冲突书架恢复也必须幂等，失败不留下来源记录或半次恢复
+  ---
+  duration_ms: 43.2442
+  type: 'test'
+  ...
+# (node:50492) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:50492) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:50492) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:50492) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:50492) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:50492) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: BN-P1-02：流式旧备份支持字段乱序、冲突幂等，坏尾部或重复 ID 不修改用户库
+ok 39 - BN-P1-02：流式旧备份支持字段乱序、冲突幂等，坏尾部或重复 ID 不修改用户库
+  ---
+  duration_ms: 402.1691
+  type: 'test'
+  ...
+# (node:50492) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:50492) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: BN-P1-02：后台导出仍为 schemaVersion 1，重新恢复不变更正文
+ok 40 - BN-P1-02：后台导出仍为 schemaVersion 1，重新恢复不变更正文
+  ---
+  duration_ms: 123.8049
+  type: 'test'
+  ...
+# Subtest: v1 数据库加法迁移不修改已有笔记，旧备份格式继续可用
+ok 41 - v1 数据库加法迁移不修改已有笔记，旧备份格式继续可用
+  ---
+  duration_ms: 56.2038
+  type: 'test'
+  ...
+# Subtest: BN-P1-01：两个来源 ID 的同名同内容冲突笔记，各保留自己的副本
+ok 42 - BN-P1-01：两个来源 ID 的同名同内容冲突笔记，各保留自己的副本
+  ---
+  duration_ms: 37.6239
+  type: 'test'
+  ...
+# Subtest: BN-P1-01：500 字标题保留恢复标记，兼容旧版超长恢复副本标题
+ok 43 - BN-P1-01：500 字标题保留恢复标记，兼容旧版超长恢复副本标题
+  ---
+  duration_ms: 36.2881
+  type: 'test'
+  ...
+# (node:50492) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: BN-P1-02：超出既有书架数量范围时不导出不可恢复备份，也不覆盖已有文件
+ok 44 - BN-P1-02：超出既有书架数量范围时不导出不可恢复备份，也不覆盖已有文件
+  ---
+  duration_ms: 63.4336
+  type: 'test'
+  ...
+1..44
+# tests 44
+# suites 0
+# pass 44
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 8822.0287

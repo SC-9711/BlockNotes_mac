@@ -1,0 +1,27 @@
+
+> blocknotes@0.1.0 test:e2e
+> playwright test
+
+(node:24316) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 13 tests using 1 worker
+
+(node:29816) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29816) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+  ok  1 tests\e2e\desktop.spec.ts:19:1 › 新增书架可删除：同名空分类、取消与 Esc、迁移全部状态后重启 (3.3s)
+  ok  2 tests\e2e\desktop.spec.ts:35:1 › 讲台分页只读：翻页与窗口重排不产生保存或笔记版本变更 (1.6s)
+  ok  3 tests\e2e\desktop.spec.ts:48:1 › 独立讲台工作台：选书筛选、固定镜头、末页只读、收起列表与返回编辑 (6.7s)
+  ok  4 tests\e2e\desktop.spec.ts:74:1 › 空讲台不创建笔记，无匹配筛选与仅归档书籍仍可阅读 (2.8s)
+  ok  5 tests\e2e\desktop.spec.ts:80:1 › BN-P1-02：自产 72 MB 旧格式备份通过真实文件 IPC 恢复并再次导入不增加 (11.0s)
+  ok  6 tests\e2e\desktop.spec.ts:102:1 › BN-P1-03：Esc 在归档等待中不被迟到的容器重新打开，长文保存和连续按键可靠 (13.1s)
+  ok  7 tests\e2e\desktop.spec.ts:124:1 › BN-P1-03：Esc 保存失败保持编辑器和草稿，修复写入后才关闭 (2.8s)
+  ok  8 tests\e2e\desktop.spec.ts:132:1 › 桌面完整笔记闭环、四个真实场景实体、备份与尺寸适配 (8.4s)
+  ok  9 tests\e2e\desktop.spec.ts:147:1 › 20 本样例、长文翻页、保存失败提示与未完成草稿恢复 (5.5s)
+  ok 10 tests\e2e\desktop.spec.ts:154:1 › 图形初始化失败仍可保存笔记，恢复图形后重新打开 (2.8s)
+  ok 11 tests\e2e\desktop.spec.ts:160:1 › 原始 OGG 解码与真实交互播放、音高音量、静音持久化 (4.1s)
+  ok 12 tests\e2e\desktop.spec.ts:185:1 › 暂停菜单冻结场景、选项与指引返回、工具提示、空白页持久化和安全退出 (3.3s)
+  ok 13 tests\e2e\desktop.spec.ts:212:1 › 唱片机完整原声库、流式播放、翻曲、暂停、音量持久化与笔记共存 (7.9s)
+
+  13 passed (1.2m)

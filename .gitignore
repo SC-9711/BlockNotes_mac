@@ -5,6 +5,7 @@ release/
 test-results/
 playwright-report/
 *.log
+!docs/validation/**/*.log
 *.tsbuildinfo
 public/minecraft/
 artifacts/screenshots/
