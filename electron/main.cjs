@@ -42,7 +42,8 @@ app.whenReady().then(()=>{
     return net.fetch(pathToFileURL(file).toString());
   });
   win=new BrowserWindow({width:1360,height:900,minWidth:760,minHeight:600,backgroundColor:'#292d29',title:'BlockNotes · 方块书房',icon:path.join(__dirname,'../dist/branding/blocknotes.ico'),show:false,webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,nodeIntegration:false,sandbox:true}});
-  Menu.setApplicationMenu(null);
+  // macOS routes copy/paste/undo and Cmd+Q through the application menu; removing it breaks text editing there.
+  Menu.setApplicationMenu(process.platform==='darwin'?Menu.buildFromTemplate([{role:'appMenu'},{role:'editMenu'},{role:'windowMenu'}]):null);
   win.webContents.setWindowOpenHandler(()=>({action:'deny'}));
   win.webContents.session.setPermissionRequestHandler((_wc,_permission,cb)=>cb(false));
   const dev=process.env.BLOCKNOTES_DEV_URL==='http://127.0.0.1:5173';

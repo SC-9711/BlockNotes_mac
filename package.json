@@ -25,7 +25,9 @@
     "pack": "npm run build && electron-builder --win dir",
     "portable": "npm run build && electron-builder --win portable",
     "pack:local": "npm run build && electron-builder --config electron-builder.local.cjs --win dir",
-    "portable:local": "npm run build && electron-builder --config electron-builder.local.cjs --win portable"
+    "portable:local": "npm run build && electron-builder --config electron-builder.local.cjs --win portable",
+    "pack:mac": "npm run build && electron-builder --mac dir --arm64",
+    "dist:mac": "npm run build && electron-builder --mac dmg zip --arm64 --publish never"
   },
   "dependencies": {
     "@react-three/fiber": "^9.0.0",
@@ -79,6 +81,18 @@
     },
     "portable": {
       "artifactName": "BlockNotes-${version}-Windows-${arch}.exe"
+    },
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "category": "public.app-category.productivity",
+      "icon": "public/branding/blocknotes.png",
+      "identity": "-",
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false,
+      "artifactName": "BlockNotes-${version}-macOS-${arch}.${ext}"
     }
   }
 }

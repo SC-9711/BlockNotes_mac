@@ -1,5 +1,9 @@
 # BlockNotes
 
+> **这是 macOS 适配版（非官方）。** 本仓库 fork 自 [tonniescj-hub/BlockNotes](https://github.com/tonniescj-hub/BlockNotes)，在原项目基础上增加了 Apple Silicon（M 系列芯片）Mac 的打包与菜单适配，不代表原作者发布或验收。原项目版权与 MIT 许可保持不变，见 [LICENSE](LICENSE)。
+>
+> **Mac 版获取方式**：在本仓库 Actions 页面打开最新一次成功的「macOS build」，下载 `BlockNotes-macOS-arm64` 并解压得到 `.dmg`，安装后首次打开如提示无法验证开发者，到「系统设置 → 隐私与安全性」点「仍要打开」。该构建未经 Apple 公证（notarization），只做了本地临时签名。Mac 上笔记保存在 `~/Library/Application Support/blocknotes/`。从源码准备本地资源的 PowerShell 脚本仅适用于 Windows；Mac 打包版首次启动会自动下载资源，无需运行这些脚本。
+
 [![Source checks](https://github.com/tonniescj-hub/BlockNotes/actions/workflows/ci.yml/badge.svg)](https://github.com/tonniescj-hub/BlockNotes/actions/workflows/ci.yml)
 
 一间可以写笔记的 3D 方块书房。面向 Windows，笔记保存在本机 SQLite；通过书与笔记录、讲台阅读、书架分类、箱子归档。固定主视角，鼠标带来小幅平滑视差，没有角色漫游。
